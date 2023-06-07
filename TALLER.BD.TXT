@@ -1,0 +1,46 @@
+CICLISTAS
+
+Id_clicista
+Nombre_ciclista
+Nacionalidad_ciclista
+experiencia_ciclista
+equipo_ciclista
+---------------------------------------------------
+EQUIPOS
+
+Id_equipo 
+Nombre_equipo
+Entrenador_equipo
+---------------------------------------------------
+ETAPAS
+
+ID_etapa (clave primaria)
+Número_etapa
+Fecha_etapa
+Ciudad_partida
+Ciudad_llegada
+Distancia_etapa
+---------------------------------------------------
+ENTRENADORES
+
+Id_entrenador
+nombre_entrenador
+telefono_entrenador
+
+
+---------------------------------------------------
+RESULTADOS
+
+ID del resultado (clave primaria)
+ID de la etapa (clave externa)
+ID del ciclista (clave externa)
+Tiempo de llegada
+---------------------------------------------------
+CLASIFICACIÓN
+
+ID de la clasificación (clave primaria)
+ID de la etapa (clave externa)
+ID del ciclista (clave externa)
+Posición en la etapa
+Posición general
+---------------------------------------------------
