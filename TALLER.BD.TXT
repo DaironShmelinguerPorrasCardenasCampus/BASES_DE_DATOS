@@ -24,23 +24,23 @@ Distancia_etapa
 ENTRENADORES
 
 Id_entrenador
+Id_ciclista
 nombre_entrenador
 telefono_entrenador
-
 
 ---------------------------------------------------
 RESULTADOS
 
-ID del resultado (clave primaria)
-ID de la etapa (clave externa)
-ID del ciclista (clave externa)
-Tiempo de llegada
+Id_resultado(clave primaria)
+Id_etapa (clave externa)
+Id_clicista (clave externa)
+Tiempo_llegada
 ---------------------------------------------------
 CLASIFICACIÓN
 
-ID de la clasificación (clave primaria)
-ID de la etapa (clave externa)
-ID del ciclista (clave externa)
-Posición en la etapa
-Posición general
+Id_clasificación (clave primaria)
+Id_etapa (clave externa)
+Id_ciclista (clave externa)
+Posicion_etapa
+Posicion_general
 ---------------------------------------------------
