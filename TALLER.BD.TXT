@@ -1,6 +1,6 @@
 CICLISTAS
 
-Id_clicista
+Id_clicista(clave primaria)
 Nombre_ciclista
 Nacionalidad_ciclista
 experiencia_ciclista
@@ -21,14 +21,7 @@ Ciudad_partida
 Ciudad_llegada
 Distancia_etapa
 ---------------------------------------------------
-ENTRENADORES
 
-Id_entrenador
-Id_ciclista
-nombre_entrenador
-telefono_entrenador
-
----------------------------------------------------
 RESULTADOS
 
 Id_resultado(clave primaria)
