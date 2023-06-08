@@ -4,7 +4,8 @@ Id_clicista(clave primaria)
 Nombre_ciclista
 Nacionalidad_ciclista
 experiencia_ciclista
-equipo_ciclista
+equipo_ciclista(clave externa)
+entrenador(clave externa)
 ---------------------------------------------------
 EQUIPOS
 
@@ -22,6 +23,13 @@ Ciudad_llegada
 Distancia_etapa
 ---------------------------------------------------
 
+ENTRENADORES
+
+Id_entrenador
+Nombre_entrenador 
+Telefono_entrenador 
+
+---------------------------------------------------
 RESULTADOS
 
 Id_resultado(clave primaria)
